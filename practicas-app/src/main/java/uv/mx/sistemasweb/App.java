@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "un 6 xd" );
+          get("/hello", (req, res) -> "un 6xd");
     }
 }
